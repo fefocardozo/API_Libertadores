@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Work\\Etec\\2026-3AI_ETIM_PAMII\\ApiLibertadoresHAS\\ApiLibertadoresHAS.csproj": {}
+    "C:\\3°AI Gustavo.R e Felipe_Cardozo\\PAMII-Luiz\\Aula04\\ApiLibertadoresHAS\\ApiLibertadoresHAS.csproj": {}
   },
   "projects": {
-    "D:\\Work\\Etec\\2026-3AI_ETIM_PAMII\\ApiLibertadoresHAS\\ApiLibertadoresHAS.csproj": {
+    "C:\\3°AI Gustavo.R e Felipe_Cardozo\\PAMII-Luiz\\Aula04\\ApiLibertadoresHAS\\ApiLibertadoresHAS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Work\\Etec\\2026-3AI_ETIM_PAMII\\ApiLibertadoresHAS\\ApiLibertadoresHAS.csproj",
+        "projectUniqueName": "C:\\3°AI Gustavo.R e Felipe_Cardozo\\PAMII-Luiz\\Aula04\\ApiLibertadoresHAS\\ApiLibertadoresHAS.csproj",
         "projectName": "ApiLibertadoresHAS",
-        "projectPath": "D:\\Work\\Etec\\2026-3AI_ETIM_PAMII\\ApiLibertadoresHAS\\ApiLibertadoresHAS.csproj",
-        "packagesPath": "C:\\Users\\Luizs\\.nuget\\packages\\",
-        "outputPath": "D:\\Work\\Etec\\2026-3AI_ETIM_PAMII\\ApiLibertadoresHAS\\obj\\",
+        "projectPath": "C:\\3°AI Gustavo.R e Felipe_Cardozo\\PAMII-Luiz\\Aula04\\ApiLibertadoresHAS\\ApiLibertadoresHAS.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "C:\\3°AI Gustavo.R e Felipe_Cardozo\\PAMII-Luiz\\Aula04\\ApiLibertadoresHAS\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Luizs\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -53,6 +53,10 @@
           "framework": "net10.0",
           "targetAlias": "net10.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[10.0.11, )"
+            },
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[10.0.8, )"
@@ -66,6 +70,14 @@
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[10.0.5, )"
+            },
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[8.22.0, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[8.22.0, )"
             }
           },
           "imports": [
@@ -87,7 +99,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.300/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.301/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.AspNetCore": "(,10.0.32767]",
             "Microsoft.AspNetCore.Antiforgery": "(,10.0.32767]",
